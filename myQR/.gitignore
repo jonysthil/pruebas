@@ -1,0 +1,13 @@
+config/
+config/*
+rz_c/
+rz_c/*
+templates_c/
+templates_c/*
+uploads/
+uploads/*
+nbproject/*
+temp/
+temp/*
+icono/
+icono/*

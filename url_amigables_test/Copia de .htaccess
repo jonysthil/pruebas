@@ -1,0 +1,5 @@
+RewriteEngine on
+#RewriteBase /testo/
+RewriteRule !^(admin/|FCKeditor)|\.(gif|jpg|jpeg|png|swf|css|js|php|htm|doc|xls|ppt|pdf|zip)$ index.php
+
+

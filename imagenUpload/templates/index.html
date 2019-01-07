@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    	<meta charset="utf-8"> 
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	</head>
+<body>
+
+	<div class="container">
+
+		<form action="subirImagen" method="POST" enctype="multipart/form-data">
+			<div class="form-group">
+				<label for="imagen">Carga tu imagen</label>
+				<input id="imagen" name="subir" type="file" class="form-control">
+			</div>
+			<button type="submit" class="btn btn-sm btn-primary">Enviar</button>
+		</form>
+		{if isset($smarty.get.v) and $smarty.get.v eq 'god'}
+		<p class="text-success">La imagen fue aceptada.</p>
+		{elseif isset($smarty.get.v) and $smarty.get.v eq 'peso'}
+		<p class="text-danger">El peso de la imagen sobrepasa de los 5MB permitidos.</p>
+		{elseif isset($smarty.get.v) and $smarty.get.v eq 'tipo'}
+		<p class="text-danger">El formato de la imagen no es permitida.</p>
+		{/if}
+	</div>
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

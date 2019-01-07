@@ -1,0 +1,9 @@
+//gia Laravel
+
+//crear nuevo proyecto 
+composer create-project --prefer-dist laravel/laravel <Proyecto>
+
+//crear modelos, controladores y request
+php artisan make:model Contacto
+php artisan make:controller ContactoController
+php artisan make:request ContactoFormRequest

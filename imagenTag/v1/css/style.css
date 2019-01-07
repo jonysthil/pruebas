@@ -1,0 +1,23 @@
+#ayuda {
+    visibility: hidden;
+    position:absolute;
+    background:#94ab1d;
+    color:#fff;
+    text-align:justify;
+    padding:10px 10px 10px 10px;
+}
+
+.contorno {
+    width: 22px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.contorno:hover {
+    width: 42px;
+    height: 60px;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+}
