@@ -104,7 +104,6 @@ return array(
     'Egulias\\EmailValidator\\Validation\\DNSCheckValidation' => $vendorDir . '/egulias/email-validator/EmailValidator/Validation/DNSCheckValidation.php',
     'Egulias\\EmailValidator\\Validation\\EmailValidation' => $vendorDir . '/egulias/email-validator/EmailValidator/Validation/EmailValidation.php',
     'Egulias\\EmailValidator\\Validation\\Error\\RFCWarnings' => $vendorDir . '/egulias/email-validator/EmailValidator/Validation/Error/RFCWarnings.php',
-    'Egulias\\EmailValidator\\Validation\\Error\\SpoofEmail' => $vendorDir . '/egulias/email-validator/EmailValidator/Validation/Error/SpoofEmail.php',
     'Egulias\\EmailValidator\\Validation\\Exception\\EmptyValidationList' => $vendorDir . '/egulias/email-validator/EmailValidator/Validation/Exception/EmptyValidationList.php',
     'Egulias\\EmailValidator\\Validation\\MultipleErrors' => $vendorDir . '/egulias/email-validator/EmailValidator/Validation/MultipleErrors.php',
     'Egulias\\EmailValidator\\Validation\\MultipleValidationWithAnd' => $vendorDir . '/egulias/email-validator/EmailValidator/Validation/MultipleValidationWithAnd.php',
