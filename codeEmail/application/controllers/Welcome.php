@@ -48,8 +48,8 @@ class Welcome extends CI_Controller {
         $mail->IsHTML(true);
         $mail->CharSet = "UTF-8";
 
-		//$mail->AddAddress('scrat.pedro@gmail.com');
-		$mail->AddAddress('jonysthil@gmail.com');
+		$mail->AddAddress('scrat.pedro@gmail.com');
+		//$mail->AddAddress('jonysthil@gmail.com');
 		$mail->AddReplyTo('info@customcoding.com.mx');
 		
 		$contenido = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
