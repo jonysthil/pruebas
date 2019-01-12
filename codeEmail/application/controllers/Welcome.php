@@ -35,7 +35,7 @@ class Welcome extends CI_Controller {
 		$mail = new PHPMailer\PHPMailer\PHPMailer();
 
 		$mail->IsSMTP();
-		$mail->SMTPDebug = 2;
+		$mail->SMTPDebug = 0;
 		$mail->SMTPAuth = true;
 		$mail->SMTPSecure = 'ssl';
 		$mail->Helo = 'customcoding.com.mx';
@@ -48,15 +48,14 @@ class Welcome extends CI_Controller {
         $mail->IsHTML(true);
         $mail->CharSet = "UTF-8";
 
-		$mail->AddAddress('scrat.pedro@gmail.com');
-		//$mail->AddAddress('jonysthil@gmail.com');
+		//$mail->AddAddress('scrat.pedro@gmail.com');
+		$mail->AddAddress('jonysthil@gmail.com');
 		$mail->AddReplyTo('info@customcoding.com.mx');
 		
 		$contenido = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 		<html xmlns="http://www.w3.org/1999/xhtml">
 			<head>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 				<title>Promoción</title>
 			</head>
 			<body style="margin: 0; padding: 0;">
@@ -77,7 +76,25 @@ class Welcome extends CI_Controller {
 													</table>
 													<table align="center">
 														<tr>
+															<td width="22">
+																<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/marker-icon-white-20190111-210636.png" alt="location" />
+															</td>
+															<td style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">Fraccionamiento Las Americas, Ecatepec de Morelos, Méx., México</td>
 															<td width="22"></td>
+															<td width="22">
+																<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/phone-icon-white-20190111-210657.png" alt="location" />
+															</td>
+															<td style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">5538030380</td>
+															<td width="22"></td>
+															<td width="22">
+																<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/mail-icon-white-20190111-210607.png" alt="location" />
+															</td>
+															<td>
+																<a style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;" href="mailto:info@customcoding.com.mx">info@customcoding.com.mx</a>
+															</td>
+															<!--<td width="22">
+																<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/mail-icon-white-20190111-210607.png" alt="location" />
+															</td>
 															<td width="22" style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;"><i class="fa fa-map-marker-alt"></i></td>
 															<td style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">Fraccionamiento Las Americas, Ecatepec de Morelos, Méx., México</td>
 															<td width="22"></td>
@@ -88,7 +105,7 @@ class Welcome extends CI_Controller {
 															<td>
 																<a style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;" href="mailto:info@customcoding.com.mx">info@customcoding.com.mx</a>
 															</td>
-															<td width="22"></td>
+															<td width="22"></td>-->
 														</tr>
 													</table>
 													<!-- Space -->
@@ -506,7 +523,7 @@ class Welcome extends CI_Controller {
 																	<tr><td style="font-size: 0; line-height: 0;" height="57">&nbsp;</td></tr>
 																	<tr>
 																		<td width="22" style="color:#ffffff;">
-																			<i class="fa fa-map-marker-alt"></i>
+																				<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/marker-icon-white-20190111-210636.png" alt="location" />
 																		</td>
 																		<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">Fraccionamiento Las Americas, Ecatepec de Morelos, Méx., México</td>
 																	</tr>
@@ -514,7 +531,7 @@ class Welcome extends CI_Controller {
 																	<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
 																	<tr>
 																		<td width="22" style="color:#ffffff;">
-																			<i class="fa fa-phone"></i>
+																				<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/phone-icon-white-20190111-210657.png" alt="location" />
 																		</td>
 																		<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">5538030380</td>
 																	</tr>
@@ -522,7 +539,7 @@ class Welcome extends CI_Controller {
 																	<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
 																	<tr>
 																		<td width="22" style="color:#ffffff;">
-																			<i class="fa fa-envelope"></i>
+																				<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/mail-icon-white-20190111-210607.png" alt="location" />
 																		</td>
 																		<td>
 																			<a style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;" href="mailto:info@customcoding.com.mx">info@customcoding.com.mx</a>
@@ -584,7 +601,7 @@ class Welcome extends CI_Controller {
 			</body>
 		</html>';
 
-        $mail->Subject = 'Comienza un 2019 con un sitio web nuevo, Pregunta por nuestras ofertas';
+        $mail->Subject = 'Comienza un 2019 con un sitio web nuevo, Pregunta por nuestras ofertas.';
         $mail->Body = $contenido;
 
 		$envio = $mail->Send();
