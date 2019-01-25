@@ -4,12 +4,12 @@ date_default_timezone_set("America/Mexico_City");
 /**
  * Define database parameters here
  */
-define("DB_USER", 'cide');
-define("DB_PASSWORD", 'cd,vlcn.cdmc$2016');
-define("DB_NAME", 'cide');
-define("DB_HOST", 'evaluacionacademicacide.mx');
-define("BACKUP_DIR", 'DB_Backups'); // Comment this line to use same script's directory ('.')
-//define("BACKUP_DIR", 'myphp-backup-files'); // Comment this line to use same script's directory ('.')
+define("DB_USER", 'root');
+define("DB_PASSWORD", 'pocoyojony12');
+define("DB_NAME", 'proelium_cide_2019');
+define("DB_HOST", 'localhost');
+define("BACKUP_DIR", 'DB_Backups');
+define("BACKUP_DIR0", BACKUP_DIR.'/'); // Comment this line to use same script's directory ('.')
 define("TABLES", '*'); // Full backup
 //define("TABLES", 'table1, table2, table3'); // Partial backup
 define("CHARSET", 'utf8');
@@ -86,7 +86,7 @@ class Backup_Database {
         $this->dbName          = $dbName;
         $this->charset         = $charset;
         $this->conn            = $this->initializeDatabase();
-        $this->backupDir       = BACKUP_DIR ? BACKUP_DIR : '.';
+        $this->backupDir       = BACKUP_DIR0.$dbName ? BACKUP_DIR0.$dbName : '.';
 		//$this->backupFile      = 'myphp-backup-'.$this->dbName.'-'.date("Ymd_His", time()).'.sql';
 		$this->backupFile      = ''.$this->dbName.'_'.date("Y-m-d_H-i-s", time()).'.sql';
         $this->gzipBackupFile  = defined('GZIP_BACKUP_FILE') ? GZIP_BACKUP_FILE : true;
@@ -132,13 +132,15 @@ class Backup_Database {
                 $tables = is_array($tables) ? $tables : explode(',', str_replace(' ', '', $tables));
             }
 
-            $sql = 'CREATE DATABASE IF NOT EXISTS '.$this->dbName."`;\n\n";
+            $sql = 'CREATE DATABASE IF NOT EXISTS '."`".$this->dbName."`;\n\n";
             $sql .= 'USE `'.$this->dbName."`;\n\n";
 
             /**
             * Iterate tables
             */
+            $this->obfPrint("Backing up Data base `".$this->dbName."` base...".str_repeat('.', 50-strlen($this->dbName)), 0, 0);
             foreach($tables as $table) {
+                
                 $this->obfPrint("Backing up `".$table."` table...".str_repeat('.', 50-strlen($table)), 0, 0);
 
                 /**
@@ -237,7 +239,7 @@ class Backup_Database {
             if ($this->gzipBackupFile) {
                 $this->gzipBackupFile();
             } else {
-                $this->obfPrint('Backup file succesfully saved to ' . $this->backupDir.'/'.$this->backupFile, 1, 1);
+                $this->obfPrint('Backup file succesfully saved to ' . $this->backupDir . '/' . $this->backupFile, 1, 1);
             }
         } catch (Exception $e) {
             print_r($e->getMessage());
@@ -282,7 +284,7 @@ class Backup_Database {
         }
 
         $source = $this->backupDir . '/' . $this->backupFile;
-        $dest =  $source . '.zip';
+        $dest =  $source . '.gz';
 
         $this->obfPrint('Gzipping backup file to ' . $dest . '... ', 1, 0);
 
@@ -380,12 +382,29 @@ if (php_sapi_name() != "cli") {
     echo '<div style="font-family: monospace;">';
 }
 
-$backupDatabase = new Backup_Database(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, CHARSET);
+
+///Tomando el nombre de todas las bases de datos
+$conn0 = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
+if (mysqli_connect_errno()) {
+    throw new Exception('ERROR connecting database: ' . mysqli_connect_error());
+    die();
+} 
+
+$database = array();
+$resultdb = mysqli_query($conn0, 'SHOW DATABASES');
+while($rowdb = mysqli_fetch_row($resultdb)) {
+    $database[] = $rowdb[0];
+}
+
+foreach ($database as $base) {
+$backupDatabase = new Backup_Database(DB_HOST, DB_USER, DB_PASSWORD, $base, CHARSET);
 $result = $backupDatabase->backupTables(TABLES, BACKUP_DIR) ? 'OK' : 'KO';
 $backupDatabase->obfPrint('Backup result: ' . $result, 1);
 
 // Use $output variable for further processing, for example to send it by email
 $output = $backupDatabase->getOutput();
+}
+
 
 if (php_sapi_name() != "cli") {
     echo '</div>';
