@@ -1,1130 +1,585 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>[SUBJECT]</title>
-  <style type="text/css">
-  body {
-   padding-top: 0 !important;
-   padding-bottom: 0 !important;
-   padding-top: 0 !important;
-   padding-bottom: 0 !important;
-   margin:0 !important;
-   width: 100% !important;
-   -webkit-text-size-adjust: 100% !important;
-   -ms-text-size-adjust: 100% !important;
-   -webkit-font-smoothing: antialiased !important;
- }
- .tableContent img {
-   border: 0 !important;
-   display: block !important;
-   outline: none !important;
- }
- a{
-  color:#382F2E;
-}
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>The Project | Email Template</title>
+	</head>
+	<body style="margin: 0; padding: 0;">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td>
 
-p, h1,h2,ul,ol,li,div{
-  margin:0;
-  padding:0;
-}
+					<!-- Header Top Start -->
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+						<tr>
+							<td>
+								<table align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+									<tr>
+										<td align="left"  bgcolor="#2e3537">
+											<!-- Space -->
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+											</table>
+											<table align="center">
+												<tr>
+													<td width="22">
+														<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/marker-icon-white-20190111-210636.png" alt="location" />
+													</td>
+													<td style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">Fraccionamiento Las Americas, Ecatepec de Morelos, Méx., México</td>
+													<td width="22"></td>
+													<td width="22">
+														<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/phone-icon-white-20190111-210657.png" alt="location" />
+													</td>
+													<td style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">+55&nbsp;3803&nbsp;0380</td>
+													<td width="22"></td>
+													<td width="22">
+														<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/mail-icon-white-20190111-210607.png" alt="location" />
+													</td>
+													<td>
+														<a style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;" href="mailto:info@customcoding.com.mx">info@customcoding.com.mx</a>
+													</td>
+												</tr>
+											</table>
+											<!-- Space -->
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<!-- Header Top End -->
 
-h1,h2{
-  font-weight: normal;
-  background:transparent !important;
-  border:none !important;
-}
+					<!-- Header Start -->
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+						<tr>
+							<td style="padding:15px 0 0 0;">
+								<table align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+									<tr>
+										<td>
+											<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" style="border-collapse: collapse;">
+												<!-- logo -->
+												<tr>
+													<td align="left">
+														<a href="../html/index.html">
+															<img src="https://customcoding.com.mx/assets/images/brand.png" alt="Company Logo" style="display: block;"/>
+														</a>
+													</td>
+												</tr>
+												<!-- company slogan -->
+												<tr>
+													<td width="100%" align="left" style="font-size: 12px; line-height: 18px; font-family:helvetica, Arial, sans-serif; color:#999999;">	
+														Multipurpose HTML5 Template
+													</td>
+												</tr>									
+												<!-- Space -->
+												<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+											</table>
+											<table align="left" border="0" cellpadding="0" cellspacing="0" width="370" style="border-collapse: collapse;">
+												<tr>
+													<td  height="75" style="text-align: right; vertical-align: middle;">
+														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Services</a> &nbsp;&nbsp;
+														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Portfolio</a> &nbsp;&nbsp;
+														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Blog</a> &nbsp;&nbsp;
+														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Contact</a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<!-- Header End -->
 
-@media only screen and (max-width:480px)
-		
-{
-		
-table[class="MainContainer"], td[class="cell"] 
-	{
-		width: 100% !important;
-		height:auto !important; 
-	}
-td[class="specbundle"] 
-	{
-		width: 100% !important;
-		float:left !important;
-		font-size:13px !important;
-		line-height:17px !important;
-		display:block !important;
-		padding-bottom:15px !important;
-	}	
-td[class="specbundle2"] 
-	{
-		width:80% !important;
-		float:left !important;
-		font-size:13px !important;
-		line-height:17px !important;
-		display:block !important;
-		padding-bottom:10px !important;
-		padding-left:10% !important;
-		padding-right:10% !important;
-	}
-		
-td[class="spechide"] 
-	{
-		display:none !important;
-	}
-	    img[class="banner"] 
-	{
-	          width: 100% !important;
-	          height: auto !important;
-	}
-		td[class="left_pad"] 
-	{
-			padding-left:15px !important;
-			padding-right:15px !important;
-	}
-		 
-}
-	
-@media only screen and (max-width:540px) 
+					<!-- Banner Start -->
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+						<tr>
+							<td>
+								<table bgcolor="#fafafa" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+									<tr>
+										<td>
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<tr>
+													<td align="center" bgcolor="#ffffff" >
+														<a href="#">
+															<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/banner-20190129-172552.jpeg" width="580" alt="Section one image" style="display: block;"/>
+														</a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<!-- Banner End -->
 
-{
-		
-table[class="MainContainer"], td[class="cell"] 
-	{
-		width: 100% !important;
-		height:auto !important; 
-	}
-td[class="specbundle"] 
-	{
-		width: 100% !important;
-		float:left !important;
-		font-size:13px !important;
-		line-height:17px !important;
-		display:block !important;
-		padding-bottom:15px !important;
-	}	
-td[class="specbundle2"] 
-	{
-		width:80% !important;
-		float:left !important;
-		font-size:13px !important;
-		line-height:17px !important;
-		display:block !important;
-		padding-bottom:10px !important;
-		padding-left:10% !important;
-		padding-right:10% !important;
-	}
-		
-td[class="spechide"] 
-	{
-		display:none !important;
-	}
-	    img[class="banner"] 
-	{
-	          width: 100% !important;
-	          height: auto !important;
-	}
-		td[class="left_pad"] 
-	{
-			padding-left:15px !important;
-			padding-right:15px !important;
-	}
-		
-}
+					<!-- Section Start -->
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+						<tr>
+							<td>
+								<table bgcolor="#fafafa" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+									<tr>
+										<td>
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+												<!-- Space -->
+												<tr><td style="font-size: 0; line-height: 0;" bgcolor="#f5f5f5" height="1">&nbsp;</td></tr>
+												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+												<tr>
+													<td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#000000;">
+														Nuestros <strong>Servicios</strong>
+													</td>
+												</tr>
+												<!-- Space -->
+												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+											</table>
+											<!-- First Row -->
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+												<tr>
+													<td>
+														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>
+																	<a href="https://customcoding.com.mx/servicio/creacion-y-diseno-web.html">
+																		<img src="https://images.pexels.com/photos/205316/pexels-photo-205316.png?cs=srgb&dl=apple-apple-devices-business-205316.jpg&fm=jpg" width="290" alt="Project 1" style="display: block;"/>
+																	</a>
+																</td>
+															</tr>
+														</table>
+														<!-- Grid Gutter 20px -->
+														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>&nbsp;</td>
+															</tr>
+														</table>
+														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="https://customcoding.com.mx/servicio/creacion-y-diseno-web.html">Creación y Diseño Web</a>
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
+                                No solo le apoyamos en la creación de tu sitio web, sino que le acompañamos en todo momento brindándole asesoría ...
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+																		<tr>
+																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
+																				<a href="https://customcoding.com.mx/servicio/creacion-y-diseno-web.html" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Leer más</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<!-- Second Row -->
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+												<tr>
+													<td>
+														<!-- Grid Gutter 20px -->
+														<table align="left" border="0" cellpadding="0" width="10" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>&nbsp;</td>
+															</tr>
+														</table>
+														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="https://customcoding.com.mx/servicio/administracion-de-su-sitio-web.html">Administración de su Sitio Web</a>
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
+                                Olvídese de la tarea de administrar su sitio web y permita crecer a su negocio enfocándose en las tareas ...
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+																		<tr>
+																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
+																				<a href="https://customcoding.com.mx/servicio/administracion-de-su-sitio-web.html" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Leer más</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+														<!-- Grid Gutter 20px -->
+														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>&nbsp;</td>
+															</tr>
+														</table>
+														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>
+																	<a href="https://customcoding.com.mx/servicio/administracion-de-su-sitio-web.html">
+																		<img src="https://images.pexels.com/photos/7360/startup-photos.jpg?cs=srgb&dl=apple-browsing-computer-7360.jpg&fm=jpg" width="290" alt="Project 2" style="display: block;"/>
+																	</a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<!-- Third Row -->
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+												<tr>
+													<td>
+														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>
+																	<a href="https://customcoding.com.mx/servicio/desarrollo-de-software.html">
+																		<img src="https://images.pexels.com/photos/34600/pexels-photo.jpg?cs=srgb&dl=code-coder-codes-34600.jpg&fm=jpg" width="290" alt="Project 3" style="display: block;"/>
+																	</a>
+																</td>
+															</tr>
+														</table>
+														<!-- Grid Gutter 20px -->
+														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>&nbsp;</td>
+															</tr>
+														</table>
+														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="https://customcoding.com.mx/servicio/desarrollo-de-software.html">Project 3</a>
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
+																	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quisquam amet vat voluptates accusamus...
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+																		<tr>
+																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
+																				<a href="https://customcoding.com.mx/servicio/desarrollo-de-software.html" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Leer más</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<!-- Fourth Row -->
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+												<tr>
+													<td>
+														<!-- Grid Gutter 20px -->
+														<table align="left" border="0" cellpadding="0" width="10" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>&nbsp;</td>
+															</tr>
+														</table>
+														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="#">Project 4</a>
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
+																	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quisquam amet vat voluptates accusamus...
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+																		<tr>
+																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
+																				<a href="#" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Read More</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+														<!-- Grid Gutter 20px -->
+														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>&nbsp;</td>
+															</tr>
+														</table>
+														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
+															<tr>
+																<td>
+																	<a href="#">
+																		<img src="http://localhost/pruebas/codeEmail/assets/images/project-4.jpg" width="290" alt="Project 4" style="display: block;"/>
+																	</a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
 
-.contentEditable h2.big,.contentEditable h1.big{
-  font-size: 26px !important;
-}
+					</table>
+					<!-- Section End -->
 
- .contentEditable h2.bigger,.contentEditable h1.bigger{
-  font-size: 37px !important;
-}
+					<!-- Section Start -->
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+						<tr>
+							<td>
+								<table align="center" bgcolor="#373737" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+									<tr>
+										<td>
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<!-- Space -->
+												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
+											</table>
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<tr>
+													<td>
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="430" style="border-collapse: collapse;">
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="3">&nbsp;</td></tr>
+															<tr>
+																<td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#ffffff;">
+																	Powerful Bootstrap Template
+																</td>
+															</tr>
+														</table>
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="140" style="border-collapse: collapse;">
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="0">&nbsp;</td></tr>
+															<tr>
+																<td width="100%" align="center" style="padding:12px 12px 12px 12px; text-align: center;border-radius:4px;" bgcolor="#f1f1f1">
+																	<a href="#" style="color: #000000; font-size: 16px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Purchase</a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<!-- Space -->
+												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
 
-td,table{
-  vertical-align: top;
-}
-td.middle{
-  vertical-align: middle;
-}
+					</table>
+					<!-- Section End -->
 
-a.link1{
-  font-size:13px;
-  color:#27A1E5;
-  line-height: 24px;
-  text-decoration:none;
-}
-a{
-  text-decoration: none;
-}
+					<!-- Footer Start -->
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+						<tr>
+							<td>
+								<table bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+									<tr>
+										<td>
+											<!-- Space -->
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
+											</table>
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="border-collapse: collapse;">
+												<tr>
+													<td>
+														<!-- First Column -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="250" style="border-collapse: collapse;">
+															<tr>
+																<td>
+																	<a href="../html/index.html">
+																		<img src="http://localhost/pruebas/codeEmail/assets/images/logo_blue.png" alt="Logo" style="display: block;"/>
+																	</a>
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+															<tr>
+																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">
+																	Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.
+																</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+															<tr>
+																<td>
+																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
+																		<tr>
+																			<td>
+																				<a href="https://www.facebook.com">
+																					<img src="http://localhost/pruebas/codeEmail/assets/images/facebook-icon.png"  alt="Facebook" style="display: block;" />
+																				</a>
+																			</td>
+																		</tr>
+																	</table>
+																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
+																		<tr>
+																			<td>
+																				<a href="https://www.twitter.com">
+																					<img src="http://localhost/pruebas/codeEmail/assets/images/twitter-icon.png"  alt="Twitter" style="display: block;" />
+																				</a>
+																			</td>
+																		</tr>
+																	</table>
+																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
+																		<tr>
+																			<td>
+																				<a href="https://plus.google.com/">
+																					<img src="http://localhost/pruebas/codeEmail/assets/images/googleplus-icon.png"  alt="Google+" style="display: block;" />
+																				</a>
+																			</td>
+																		</tr>
+																	</table>
+																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
+																		<tr>
+																			<td>
+																				<a href="https://www.linkedin.com/">
+																					<img src="http://localhost/pruebas/codeEmail/assets/images/linkedin-icon.png"  alt="Linked In" style="display: block;" />
+																				</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+														<!-- Gutter 20px -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="40" style="border-collapse: collapse;">
+															<tr>
+																<td>
+																	&nbsp;
+																</td>
+															</tr>
+														</table>
+														<!-- Second Column -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="250" style="border-collapse: collapse;">
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="57">&nbsp;</td></tr>
+															<tr>
+																<td width="22">
+																	<img src="http://localhost/pruebas/codeEmail/assets/images/marker-icon.png" alt="location" />
+																</td>
+																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">One infinity loop, 54100</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+															<tr>
+																<td width="22">
+																	<img src="http://localhost/pruebas/codeEmail/assets/images/phone-icon.png" alt="location" />
+																</td>
+																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">+12&nbsp;1234&nbsp;1234&nbsp;123</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+															<tr>
+																<td width="22">
+																	<img src="http://localhost/pruebas/codeEmail/assets/images/fax-icon.png" alt="location" />
+																</td>
+																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">+12&nbsp;1234&nbsp;1234&nbsp;123</td>
+															</tr>
+															<!-- Space -->
+															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+															<tr>
+																<td width="22">
+																	<img src="http://localhost/pruebas/codeEmail/assets/images/mail-icon.png" alt="location" />
+																</td>
+																<td>
+																	<a style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;" href="mailto:theproject@mail.com">theproject@mail.com</a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<!-- Space -->
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
 
-.link2{
-color:#ffffff;
-border-top:10px solid #27A1E5;
-border-bottom:10px solid #27A1E5;
-border-left:18px solid #27A1E5;
-border-right:18px solid #27A1E5;
-border-radius:3px;
--moz-border-radius:3px;
--webkit-border-radius:3px;
-background:#27A1E5;
-}
+					</table>
+					<!-- Footer End -->
 
-.link3{
-color:#555555;
-border:1px solid #cccccc;
-padding:10px 18px;
-border-radius:3px;
--moz-border-radius:3px;
--webkit-border-radius:3px;
-background:#ffffff;
-}
+					<!-- Subfooter Start -->
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+						<tr>
+							<td>
+								<table bgcolor="#f5f5f5" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
+									<tr>
+										<td>
+											<!-- Space -->
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+												<tr><td style="font-size: 0; line-height: 0;" bgcolor="#eaeaea" height="1">&nbsp;</td></tr>
+												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+											</table>
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="border-collapse: collapse;">
+												<tr>
+													<td align="center" style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">
+														Copyright © 2015 The Project by <a href="http://www.htmlcoder.me" style="color: #3697d9; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;">HtmlCoder</a>. All Rights Reserved / <a href="#" style="color: #3697d9; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;"> Unsubscribe</a>
+													</td>
+												</tr>
+											</table>
+											<!-- Space -->
+											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
 
-.link4{
-color:#27A1E5;
-line-height: 24px;
-}
+					</table>
+					<!-- Subfooter End -->
+			
 
-h2,h1{
-line-height: 20px;
-}
-p{
-  font-size: 14px;
-  line-height: 21px;
-  color:#AAAAAA;
-}
-
-.contentEditable li{
- 
-}
-
-.appart p{
- 
-}
-.bgItem{
-background: #ffffff;
-}
-.bgBody{
-background: #ffffff;
-}
-
-img { 
-  outline:none; 
-  text-decoration:none; 
-  -ms-interpolation-mode: bicubic;
-  width: auto;
-  max-width: 100%; 
-  clear: both; 
-  display: block;
-  float: none;
-}
-
-</style>
-
-
-<script type="colorScheme" class="swatch active">
-{
-    "name":"Default",
-    "bgBody":"ffffff",
-    "link":"27A1E5",
-    "color":"AAAAAA",
-    "bgItem":"ffffff",
-    "title":"444444"
-}
-</script>
-
-
-</head>
-<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0" toppadding="0" leftpadding="0">
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
-      <!-- =============== START HEADER =============== -->
-  <tbody>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="20">&nbsp;</td>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td class="movableContentContainer">
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="15"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="60"><img src="http://localhost/pruebas/codeEmail/assets/images/logo.png" alt="Logo" title="Logo" width="60" height="60" data-max-width="100"></td>
-      <td width="10" valign="top">&nbsp;</td>
-      <td valign="middle" style='vertical-align: middle;'>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;font-weight: light; color:#555555;font-size:26;line-height: 39px;font-family: Helvetica Neue;'>
-                              <h1 class='big'><a target='_blank' href="[CLIENTS.WEBSITE]" style='color:#444444'>Company</a></h1>
-                            </div>
-                          </div>
-                        </td>
-    </tr>
-  </tbody>
-</table>
-</td>
-      <td valign="top" width="90" class="spechide">&nbsp;</td>
-      <td valign="middle" style='vertical-align: middle;' width='150'>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: right;'>
-                              <a target='_blank' href="[SHOWEMAIL]" class='link1' >Open in your browser</a>
-                            </div>
-                          </div>
-                        </td>
-    </tr>
-  </tbody>
-</table></td>
-    </tr>
-    <tr>
-       <td height='15'></td>
-    </tr>
-    <tr>
-       <td ><hr style='height:1px;background:#DDDDDD;border:none;'></td>
-     </tr>
-  </tbody>
-</table>
-	  </div>
-      <!-- =============== END HEADER =============== -->
-<!-- =============== START BODY =============== -->
-      
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="40"></td>
-    </tr>
-    <tr>
-      <td valign="top" width="580"><div class='contentEditableContainer contentImageEditable'>
-                      <div class='contentEditable' style="text-align: center;"><img class="banner" src="https://customcoding.com.mx/uploads/blog/20181206-211627-10-razones-por-las-que-deberias-invertir-en-una-pagina-web.jpeg" alt="Logo" title="Logo" width="580" height="221" border="0"></div></div></td>
-    </tr>
-  </tbody>
-</table>
-
-      
-      
-      </div>
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height='40'></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="40">&nbsp;</td>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-                      <tr><td height='25'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: center;'>
-                              <h2 style="font-size: 20px;">First Feature</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr><td height='24'></td></tr>
-                    </table></td>
-      <td valign="top" width="40">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-      
-      
-      </div>
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="40"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td class="specbundle"><div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;'>
-                              <h2 style="font-size: 20px;">Subtitle</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.
-                              </p>
-                              <br><br>
-                              <a target='_blank' href="#" class='link2' style='color:#ffffff'>Call to action</a>
-                              <br>
-                            </div>
-                          </div></td>
-      <td valign="top" width="75" class="specbundle">&nbsp;</td>
-      <td class="specbundle"><div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;'>
-                              <h2 style="font-size: 20px;">Subtitle</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.
-                              </p>
-                              <br><br>
-                              <a target='_blank' href="#" class='link2' style='color:#ffffff'>Call to action</a>
-                              <br>
-                            </div>
-                          </div></td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-      
-      
-      </div>
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="40"></td>
-    </tr>
-    <tr>
-      <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td width="40" valign="top">&nbsp;</td>
-      <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-                      <tr><td height='25'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: center;'>
-                              <h2 style="font-size: 20px;">Second Feature</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.
-                              </p>
-                              <br><br>
-                              <a target='_blank' href="#" class='link3' style='color:#555555;'>Call to action</a>
-                              <br>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr><td height='24'></td></tr>
-                    </table></td>
-      <td width="40" valign="top">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-      
-      
-      </div>
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="40"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td class="specbundle" valign="top" width="142" align="center"><div class='contentEditableContainer contentImageEditable'>
-                      <div class='contentEditable'>
-                        <img src="http://localhost/pruebas/codeEmail/assets/images/side.png" alt="side image" width='142' height='142' data-default="placeholder" border="0">
-                      </div>
-                    </div></td>
-      <td width="20" valign="top" class="spechide"></td>
-      <td class="specbundle"><table width="100%" cellpadding="0" cellspacing="0" align="center">
-                      <tr><td height='15'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;'>
-                              <h2 style='font-size:16px;'>Sub Feature 1</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                              <br>
-                              <a target='_blank' href="#" class='link4' style='color:#27A1E5;' >read more</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table></td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-      
-      
-      </div>
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="40"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" class="specbundle"><table width="100%" cellpadding="0" cellspacing="0" align="center">
-                      <tr><td height='15'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;'>
-                              <h2 style='font-size:16px;'>Sub Feature 2</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                              <br>
-                              <a target='_blank' href="#" class='link4' style='color:#27A1E5;' >read more</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table></td>
-      <td width="20" class="spechide">&nbsp;</td>
-      <td class="specbundle" valign="top" width="142" align="center"><div class='contentEditableContainer contentImageEditable'>
-                      <div class='contentEditable'>
-                        <img src="http://localhost/pruebas/codeEmail/assets/images/side2.png" alt="side image" width='142' height='142' data-default="placeholder" border="0">
-                      </div>
-                    </div></td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-      
-      
-      </div>
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="40"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td class="specbundle" valign="top" width="142" align="center"><div class='contentEditableContainer contentImageEditable'>
-                      <div class='contentEditable'>
-                        <img src="http://localhost/pruebas/codeEmail/assets/images/side3.png" alt="side image" width='142' height='142' data-default="placeholder" border="0">
-                      </div>
-                    </div></td>
-      <td width="20" valign="top" class="spechide"></td>
-      <td class="specbundle"><table width="100%" cellpadding="0" cellspacing="0" align="center">
-                      <tr><td height='15'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;'>
-                              <h2 style='font-size:16px;'>Sub Feature 3</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                              <br>
-                              <a target='_blank' href="#" class='link4' style='color:#27A1E5;' >read more</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table></td>
-    </tr>
-  </tbody>
-</table></td>
-    </tr>
-    <tr><td height='40' colspan="3"></td></tr>
-                <tr><td colspan="3"><hr style='height:1px;background:#DDDDDD;border:none;'></td></tr>
-  </tbody>
-</table>
-      </div>
-      
-      <!-- =============== END BODY =============== -->
-<!-- =============== START FOOTER =============== -->
-
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="48"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="90" class="spechide">&nbsp;</td>
-      <td><table width="100%" cellpadding="0" cellspacing="0" align="center">
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: center;color:#AAAAAA;'>
-                              <p>
-                              Sent by [SENDER_NAME] <br/>
-                              [CLIENTS.ADDRESS] <br/>
-                              [CLIENTS.PHONE] <br/>
-                              <a target='_blank' href="[FORWARD]" style='color:#AAAAAA;'>Forward to a friend</a> <br/>
-                              <a target='_blank' href="[UNSUBSCRIBE]" style='color:#AAAAAA;' >Unsubscribe</a>
-                              </p>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table></td>
-      <td valign="top" width="90" class="spechide">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-      
-      
-      </div>
-      <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-      
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="40"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="185" class="spechide">&nbsp;</td>
-      <td class="specbundle2"><table width="100%" cellpadding="0" cellspacing="0" align="center">
-                      <tr>
-                        <td width='40'>
-                          <div class='contentEditableContainer contentFacebookEditable'>
-                            <div class='contentEditable' style='text-align: center;color:#AAAAAA;'>
-                              <img src="http://localhost/pruebas/codeEmail/assets/images/facebook.png" alt="facebook" width='40' height='40' data-max-width="40" data-customIcon="true" border="0" >
-                            </div>
-                          </div>
-                        </td>
-                        <td width='10'></td>
-                        <td width='40'>
-                          <div class='contentEditableContainer contentTwitterEditable'>
-                            <div class='contentEditable' style='text-align: center;color:#AAAAAA;'>
-                              <img src="http://localhost/pruebas/codeEmail/assets/images/twitter.png" alt="twitter" width='40' height='40' data-max-width="40" data-customIcon="true" border="0">
-                            </div>
-                          </div>
-                        </td>
-                        <td width='10'></td>
-                        <td width='40'>
-                          <div class='contentEditableContainer contentImageEditable'>
-                            <div class='contentEditable' style='text-align: center;color:#AAAAAA;'>
-                              <img src="http://localhost/pruebas/codeEmail/assets/images/red.png" alt="Pinterest" width='40' height='40' data-max-width="40" border="0">
-                            </div>
-                          </div>
-                        </td>
-                        <td width='10'></td>
-                        <td width='40'>
-                          <div class='contentEditableContainer contentImageEditable'>
-                            <div class='contentEditable' style='text-align: center;color:#AAAAAA;'>
-                              <img src="http://localhost/pruebas/codeEmail/assets/images/blue.png" alt="Social media" width='40' height='40' data-max-width="40" border="0">
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table></td>
-      <td valign="top" width="185" class="spechide">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-    <tr>
-    	<td height='40'></td>
-    </tr>
-  </tbody>
-</table>
-
-     <!-- =============== END FOOTER =============== --> 
-      </div>
-      </td>
-    </tr>
-  </tbody>
-</table>
-</td>
-      <td valign="top" width="20">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-<!--Default Zone
-
-      <div class="customZone" data-type="image">
-          <div class='movableContent'>
-              <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr><td height='40'></td></tr>
-                <tr>
-                  <td>
-                    <div class='contentEditableContainer contentImageEditable'>
-                      <div class='contentEditable' style="text-align: center;">
-                        <img src="http://localhost/pruebas/codeEmail/assets/images/bigImg.png" alt="Logo" width='580' height='221' data-default="placeholder" data-max-width="580">
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-              </table>  
-            </div>
-      </div>
-      
-      <div class='customZone' data-type="text">
-      <div class='movableContent'>
-              <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr><td height='40'></td></tr>
-                <tr>
-                  <td style='border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px'>
-                    <table width="480" border="0" cellspacing="0" cellpadding="0" align="center">
-                      <tr><td height='25'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: center;color:#AAAAAA;'>
-                              <h2 style="font-size: 20px;">First Feature</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr><td height='24'></td></tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>  
-            </div>          
-              </div>
-      
-      <div class="customZone" data-type="imageText">
-          <div class='movableContent'>
-              <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr>
-                  <td width='150'>
-                    <div class='contentEditableContainer contentImageEditable'>
-                      <div class='contentEditable'>
-                        <img src="http://localhost/pruebas/codeEmail/assets/images/side.png" alt="side image" width='142' height='142' data-default="placeholder" data-max-width="150">
-                      </div>
-                    </div>
-                  </td>
-                  <td width='20'></td>
-                  <td width='410'>
-                    <table width="410" cellpadding="0" cellspacing="0" align="center">
-                      <tr><td height='15'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable'>
-                              <h2 style='font-size:16px;'>Sub Feature 2</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                              <br>
-                              <a target='_blank' href="#" class='link4'  >read more</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr><td colspan='3'><hr style='height:1px;background:#DDDDDD;border:none;'></td></tr>
-              </table>  
-            </div>
-      </div>
-      
-      <div class="customZone" data-type="Textimage">
-          <div class='movableContent'>
-              <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr>
-                  <td width='410'>
-                    <table width="410" cellpadding="0" cellspacing="0" align="center">
-                      <tr><td height='15'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable'>
-                              <h2 style='font-size:16px;'>Sub Feature 2</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                              <br>
-                              <a target='_blank' href="#" class='link4' >read more</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                  <td width='20'></td>
-                  <td width='150'>
-                    <div class='contentEditableContainer contentImageEditable'>
-                      <div class='contentEditable'>
-                        <img src="http://localhost/pruebas/codeEmail/assets/images/side2.png" alt="side image" width='142' height='142' data-default="placeholder" data-max-width="150">
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr><td colspan='3'><hr style='height:1px;background:#DDDDDD;border:none;'></td></tr>
-              </table>  
-            </div>
-      </div>
-
-      <div class="customZone" data-type="textText">
-          <div class='movableContent'>
-              <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr>
-                  <td width='252'>
-                    <table width='252' border='0' cellpadding="0" cellspacing="0" align="center">
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;'>
-                              <h2 style="font-size: 20px;">Subtitle</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.
-                              </p>
-                              <br><br>
-                              <a target='_blank' href="#" class='link2'>Call to action</a>
-                              <br>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                  <td width='75'></td>
-                  <td width='252'>
-                    <table width='252' border='0' cellpadding="0" cellspacing="0" align="center">
-                      <tr>
-                        <td>
-                           <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable' style='text-align: left;'>
-                              <h2 style="font-size: 20px;">Subtitle</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.
-                              </p>
-                              <br><br>
-                              <a target='_blank' href="#" class='link2'>Call to action</a>
-                              <br>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>  
-            </div>
-      </div>
-
-      <div class="customZone" data-type="qrcode">
-          <div class='movableContent'>
-              <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr>
-                  <td width='75' valign='middle' style='vertical-align:middle;'>
-                    <div class='contentEditableContainer contentQrcodeEditable'>
-                      <div class='contentEditable' style='text-align:center;'>
-                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/http://localhost/pruebas/codeEmail/assets/images/neweditor/default/qr_code.png" width="75" height='75'>
-                      </div>
-                    </div>
-                  </td>
-                  <td width='20'></td>
-                  <td width='485'>
-                    <table width="485" cellpadding="0" cellspacing="0" align="center">
-                      <tr><td height='15'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable'>
-                              <h2 style='font-size:16px;'>Sub Feature 1</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                              <br>
-                              <a target='_blank' href="#" class='link4'  >read more</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr><td colspan='3'><hr style='height:1px;background:#DDDDDD;border:none;'></td></tr>
-              </table>  
-            </div>
-      </div>
-      
-      <div class="customZone" data-type="gmap">
-          <div class='movableContent'>
-              <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr>
-                  <td width='250' valign='middle' style='vertical-align:middle;'>
-                    <div class='contentEditableContainer contentGmapEditable'>
-                      <div class='contentEditable' >
-                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/http://localhost/pruebas/codeEmail/assets/images/neweditor/default/gmap_example.png" width="150" height='150' data-default="placeholder">
-                      </div>
-                    </div>
-                  </td>
-                  <td width='20'></td>
-                  <td width='310'>
-                    <table width="310" cellpadding="0" cellspacing="0" align="center">
-                      <tr><td height='15'></td></tr>
-                      <tr>
-                        <td>
-                          <div class='contentEditableContainer contentTextEditable'>
-                            <div class='contentEditable'>
-                              <h2 style='font-size:16px;'>Sub Feature 3</h2>
-                              <br>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-                              <br>
-                              <a target='_blank' href="#" class='link4'  >read more</a>
-                            </div>
-                          </div>
-                        </td>
-
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr><td height='40' colspan="3"></td></tr>
-                <tr><td colspan='3'><hr style='height:1px;background:#DDDDDD;border:none;'></td></tr>
-              </table>  
-            </div>
-      </div>
-
-      <div class="customZone" data-type="social">
-          <div class="movableContent">
-              <div >
-                  <table width='600' cellpadding="0" cellspacing="0" border="0" >
-                    <tr>
-                    <td height='42' colspan='4'>&nbsp;</td>
-              </tr>
-                      <tr>
-                          <td valign='top' colspan="4" style='padding:0 20px;'>
-                              <div class="contentTextEditable contentEditableContainer">
-                                  <div style='text-align:center;' class="contentEditable">
-                                      <h2 class='big'>This is a subtitle</h2>
-                                  </div>
-                              </div>
-                          </td>
-                      </tr>
-                      <tr><td height='30'></td></tr>
-                      <tr>
-                          <td width='62' valign='top' valign="top" width="62" style='padding:0 0 0 20px;'>
-                              <div class="contentEditableContainer contentTwitterEditable">
-                                  <div class="contentEditable">
-                                      <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/http://localhost/pruebas/codeEmail/assets/images/neweditor/default/icon_twitter.png" width="42" height="42" data-customIcon="true" data-noText="false" data-max-width='42'>
-                                  </div>
-                              </div>
-                          </td>
-                          <td width='216' valign='top' >
-                              <div class="contentEditableContainer contentTextEditable">
-                                  <div  class="contentEditable">
-                                      <p >Follow us on Twitter to stay up to date with company news and other information.</p>
-                                  </div>
-                              </div>
-                          </td>
-                          <td width='62' valign='top' valign="top" width="62">
-                              <div class="contentEditableContainer contentFacebookEditable">
-                                  <div class="contentEditable">
-                                      <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/http://localhost/pruebas/codeEmail/assets/images/neweditor/default/icon_facebook.png" width="42" height="42" data-customIcon="true" data-noText="false" data-max-width='42'>
-                                  </div>
-                              </div>
-                          </td>
-                          <td width='216' valign='top' style='padding:0 20px 0 0;'>
-                              <div class="contentEditableContainer contentTextEditable">
-                                  <div  class="contentEditable">
-                                      <p >Like us on Facebook to keep up with our news, updates and other discussions.</p>
-                                  </div>
-                              </div>
-                          </td>
-                      </tr>
-                  </table>
-              </div>
-          </div>
-      </div>
-
-      <div class="customZone" data-type="twitter">
-          <div class="movableContent">
-              <div '>
-                  <table cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                    <td height='42'>&nbsp;</td>
-                    <td height='42'>&nbsp;</td>
-              </tr>
-                      <tr>
-                          <td valign='top' valign="top" width="62" style='padding:0 0 0 20px;'>
-                              <div class="contentEditableContainer contentTwitterEditable">
-                                  <div class="contentEditable">
-                                      <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/http://localhost/pruebas/codeEmail/assets/images/neweditor/default/icon_twitter.png" width="42" height="42" data-customIcon="true" data-noText="false" data-max-width='42'>
-                                  </div>
-                              </div>
-                          </td>
-                          <td valign='top' style='padding:0 20px 0 0;'>
-                              <div class="contentEditableContainer contentTextEditable">
-                                  <div  class="contentEditable">
-                                      <p >Follow us on Twitter to stay up to date with company news and other information.</p>
-                                  </div>
-                              </div>
-                          </td>
-                      </tr>
-                  </table>
-              </div>
-          </div>
-      </div>
-      
-      <div class="customZone" data-type="facebook">
-          <div class="movableContent">
-              <div >
-                  <table cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                    <td height='42'>&nbsp;</td>
-                    <td height='42'>&nbsp;</td>
-              </tr>
-                      <tr>
-                          <td valign='top' valign="top" width="62" style='padding:0 0 0 20px;'>
-                              <div class="contentEditableContainer contentFacebookEditable">
-                                  <div class="contentEditable">
-                                      <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/http://localhost/pruebas/codeEmail/assets/images/neweditor/default/icon_facebook.png" width="42" height="42" data-customIcon="true" data-noText="false" data-max-width='42'>
-                                  </div>
-                              </div>
-                          </td>
-                          <td valign='top' style='padding:0 20px 0 0;'>
-                              <div class="contentEditableContainer contentTextEditable">
-                                  <div  class="contentEditable">
-                                      <p >"Like us on Facebook to keep up with our news, updates and other discussions.</p>
-                                  </div>
-                              </div>
-                          </td>
-                      </tr>
-                  </table>
-              </div>
-          </div>
-      </div>
-
-      <div class="customZone" data-type="line">
-          <div class='movableContent'>
-                <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
-                  <tr><td height='40'></td></tr>
-                  <tr><td height='1' bgcolor='#DDDDDD'></td></tr>
-                </table>
-              </div>
-      </div>
-
-
-      <div class="customZone" data-type="colums1v2"><div class='movableContent'>
-                          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" >
-                            <tr><td height='40'></td></tr>
-                            <tr>
-                              <td align="left" valign="top" class="newcontent">
-                                
-                              </td>
-                            </tr>
-                          </table>
-                    </div>
-      </div>
-
-      <div class="customZone" data-type="colums2v2"><div class='movableContent'>
-                      <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" valign='top'>
-                        <tr><td colspan='3' height='40'></td></tr>
-                        <tr>
-                          <td width='280'  valign='top' class="newcontent">
-                            
-                          </td>
-
-                          <td width='20'></td>
-                          
-                          <td width='280' valign='top' class="newcontent">
-                            
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-      </div>
-
-      <div class="customZone" data-type="colums3v2"><div class='movableContent'>
-                      <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" valign='top'>
-                        <tr><td colspan='5' height='40'></td></tr>
-                        <tr>
-                          <td width='186'  valign='top' class="newcontent">
-                            
-                          </td>
-
-                          <td width='10'></td>
-                          
-                          <td width='187'  valign='top' class="newcontent">
-                            
-                          </td>
-
-                          <td width='10'></td>
-                          
-                          <td width='186'  valign='top' class="newcontent">
-                            
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-      </div>
-
-      <div class="customZone" data-type="textv2">
-              
-        <div class='contentEditableContainer contentTextEditable'>
-          <div class='contentEditable' style='text-align: center;'>
-            <h2 style="font-size: 20px;">First Feature</h2>
-            <br>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-        </div>
-                        
-      </div>
-
-
-
-
-
-    -->
-    <!--Default Zone End-->
-
-  </body>
-  </html>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
