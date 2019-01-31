@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script>
-        $(document).on('ready',function(){       
+        $(document).on('ready',function(){
+
             $('#btn-validar').click(function(){
                 var url = "validando.php";
                 $.ajax({                        
-                type: "POST",                 
-                url: url,                     
-                data: $("#validaDominio").serialize(), 
-                success: function(data)             
-                {
-                    $('#resp').html(data);               
-                }
+                    type: "POST",                 
+                    url: url,                     
+                    data: $("#validaDominio").serialize(), 
+                    success: function(data) {
+                        $('#resp').html(data);               
+                    }
+                });
             });
+
+            $("#validaDominio").keypress(function(e) {
+                if (e.which == 13) {
+                    return false;
+                }
             });
         });
     </script>
@@ -38,7 +44,7 @@
                         Comprueba disponibilidad
                     </div>
                     <div class="card-body">
-                        <form name="validaDominio" id="validaDominio" method="POST">
+                        <form id="validaDominio">
                             <div class="row">
                                 <div class="col-md-6">
                                 <div class="input-group">
@@ -54,6 +60,7 @@
                                         <option value="mx">.mx</option>
                                         <option value="com.mx">.com.mx</option>
                                         <option value="net">.net</option>
+                                        <option value="org.mx">.org.mx</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
