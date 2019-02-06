@@ -1,585 +1,724 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>The Project | Email Template</title>
-	</head>
-	<body style="margin: 0; padding: 0;">
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
 
-					<!-- Header Top Start -->
-					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-						<tr>
-							<td>
-								<table align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
-									<tr>
-										<td align="left"  bgcolor="#2e3537">
-											<!-- Space -->
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-											</table>
-											<table align="center">
-												<tr>
-													<td width="22">
-														<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/marker-icon-white-20190111-210636.png" alt="location" />
-													</td>
-													<td style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">Fraccionamiento Las Americas, Ecatepec de Morelos, Méx., México</td>
-													<td width="22"></td>
-													<td width="22">
-														<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/phone-icon-white-20190111-210657.png" alt="location" />
-													</td>
-													<td style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">+55&nbsp;3803&nbsp;0380</td>
-													<td width="22"></td>
-													<td width="22">
-														<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/mail-icon-white-20190111-210607.png" alt="location" />
-													</td>
-													<td>
-														<a style="color: #fff; font-size: 12px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;" href="mailto:info@customcoding.com.mx">info@customcoding.com.mx</a>
-													</td>
-												</tr>
-											</table>
-											<!-- Space -->
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-					<!-- Header Top End -->
+    <!-- Web Font / @font-face : BEGIN -->
+    <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
 
-					<!-- Header Start -->
-					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-						<tr>
-							<td style="padding:15px 0 0 0;">
-								<table align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
-									<tr>
-										<td>
-											<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" style="border-collapse: collapse;">
-												<!-- logo -->
-												<tr>
-													<td align="left">
-														<a href="../html/index.html">
-															<img src="https://customcoding.com.mx/assets/images/brand.png" alt="Company Logo" style="display: block;"/>
-														</a>
-													</td>
-												</tr>
-												<!-- company slogan -->
-												<tr>
-													<td width="100%" align="left" style="font-size: 12px; line-height: 18px; font-family:helvetica, Arial, sans-serif; color:#999999;">	
-														Multipurpose HTML5 Template
-													</td>
-												</tr>									
-												<!-- Space -->
-												<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-											</table>
-											<table align="left" border="0" cellpadding="0" cellspacing="0" width="370" style="border-collapse: collapse;">
-												<tr>
-													<td  height="75" style="text-align: right; vertical-align: middle;">
-														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Services</a> &nbsp;&nbsp;
-														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Portfolio</a> &nbsp;&nbsp;
-														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Blog</a> &nbsp;&nbsp;
-														<a href="#" style="font-family:helvetica, Arial, sans-serif; color: #333333; font-size: 16px; text-decoration: none;">Contact</a>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-					<!-- Header End -->
+    <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: sans-serif !important;
+            }
+        </style>
+    <![endif]-->
 
-					<!-- Banner Start -->
-					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-						<tr>
-							<td>
-								<table bgcolor="#fafafa" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
-									<tr>
-										<td>
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<tr>
-													<td align="center" bgcolor="#ffffff" >
-														<a href="#">
-															<img src="https://customcoding.com.mx/uploads/galeria/iconos-para-email/banner-20190129-172552.jpeg" width="580" alt="Section one image" style="display: block;"/>
-														</a>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-					<!-- Banner End -->
+    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+    <!--[if !mso]><!-->
+    <!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+    <!--<![endif]-->
 
-					<!-- Section Start -->
-					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-						<tr>
-							<td>
-								<table bgcolor="#fafafa" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
-									<tr>
-										<td>
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-												<!-- Space -->
-												<tr><td style="font-size: 0; line-height: 0;" bgcolor="#f5f5f5" height="1">&nbsp;</td></tr>
-												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
-												<tr>
-													<td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#000000;">
-														Nuestros <strong>Servicios</strong>
-													</td>
-												</tr>
-												<!-- Space -->
-												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
-											</table>
-											<!-- First Row -->
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-												<tr>
-													<td>
-														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>
-																	<a href="https://customcoding.com.mx/servicio/creacion-y-diseno-web.html">
-																		<img src="https://images.pexels.com/photos/205316/pexels-photo-205316.png?cs=srgb&dl=apple-apple-devices-business-205316.jpg&fm=jpg" width="290" alt="Project 1" style="display: block;"/>
-																	</a>
-																</td>
-															</tr>
-														</table>
-														<!-- Grid Gutter 20px -->
-														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>&nbsp;</td>
-															</tr>
-														</table>
-														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="https://customcoding.com.mx/servicio/creacion-y-diseno-web.html">Creación y Diseño Web</a>
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
-                                No solo le apoyamos en la creación de tu sitio web, sino que le acompañamos en todo momento brindándole asesoría ...
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-																		<tr>
-																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
-																				<a href="https://customcoding.com.mx/servicio/creacion-y-diseno-web.html" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Leer más</a>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!-- Second Row -->
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-												<tr>
-													<td>
-														<!-- Grid Gutter 20px -->
-														<table align="left" border="0" cellpadding="0" width="10" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>&nbsp;</td>
-															</tr>
-														</table>
-														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="https://customcoding.com.mx/servicio/administracion-de-su-sitio-web.html">Administración de su Sitio Web</a>
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
-                                Olvídese de la tarea de administrar su sitio web y permita crecer a su negocio enfocándose en las tareas ...
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-																		<tr>
-																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
-																				<a href="https://customcoding.com.mx/servicio/administracion-de-su-sitio-web.html" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Leer más</a>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-														<!-- Grid Gutter 20px -->
-														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>&nbsp;</td>
-															</tr>
-														</table>
-														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>
-																	<a href="https://customcoding.com.mx/servicio/administracion-de-su-sitio-web.html">
-																		<img src="https://images.pexels.com/photos/7360/startup-photos.jpg?cs=srgb&dl=apple-browsing-computer-7360.jpg&fm=jpg" width="290" alt="Project 2" style="display: block;"/>
-																	</a>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!-- Third Row -->
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-												<tr>
-													<td>
-														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>
-																	<a href="https://customcoding.com.mx/servicio/desarrollo-de-software.html">
-																		<img src="https://images.pexels.com/photos/34600/pexels-photo.jpg?cs=srgb&dl=code-coder-codes-34600.jpg&fm=jpg" width="290" alt="Project 3" style="display: block;"/>
-																	</a>
-																</td>
-															</tr>
-														</table>
-														<!-- Grid Gutter 20px -->
-														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>&nbsp;</td>
-															</tr>
-														</table>
-														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="https://customcoding.com.mx/servicio/desarrollo-de-software.html">Project 3</a>
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
-																	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quisquam amet vat voluptates accusamus...
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-																		<tr>
-																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
-																				<a href="https://customcoding.com.mx/servicio/desarrollo-de-software.html" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Leer más</a>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!-- Fourth Row -->
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-												<tr>
-													<td>
-														<!-- Grid Gutter 20px -->
-														<table align="left" border="0" cellpadding="0" width="10" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>&nbsp;</td>
-															</tr>
-														</table>
-														<table align="left" border="0" cellpadding="0" width="260" cellspacing="0" style="border-collapse: collapse;">
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<a style="text-decoration:none; font-family: helvetica, Arial, sans-serif; font-size: 22px; color: #343434; line-height: 26px;" href="#">Project 4</a>
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td style="font-family: helvetica, Arial, sans-serif; font-size: 14px; color: #777777; line-height: 21px;">
-																	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quisquam amet vat voluptates accusamus...
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<table width="100" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-																		<tr>
-																			<td align="center" style="padding:8px 5px 8px 5px;border-radius:4px;" bgcolor="#3697d9">
-																				<a href="#" style="color: #fff; font-size: 12px; line-height: 12px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Read More</a>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-														<!-- Grid Gutter 20px -->
-														<table align="left" border="0" cellpadding="0" width="20" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>&nbsp;</td>
-															</tr>
-														</table>
-														<table align="left" border="0" cellpadding="0" width="290" cellspacing="0" style="border-collapse: collapse;">
-															<tr>
-																<td>
-																	<a href="#">
-																		<img src="http://localhost/pruebas/codeEmail/assets/images/project-4.jpg" width="290" alt="Project 4" style="display: block;"/>
-																	</a>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+    <!-- Web Font / @font-face : END -->
 
-					</table>
-					<!-- Section End -->
+    <!-- CSS Reset : BEGIN -->
+    <style>
 
-					<!-- Section Start -->
-					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-						<tr>
-							<td>
-								<table align="center" bgcolor="#373737" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
-									<tr>
-										<td>
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<!-- Space -->
-												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
-											</table>
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<tr>
-													<td>
-														<table align="left" border="0" cellpadding="0" cellspacing="0" width="430" style="border-collapse: collapse;">
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="3">&nbsp;</td></tr>
-															<tr>
-																<td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#ffffff;">
-																	Powerful Bootstrap Template
-																</td>
-															</tr>
-														</table>
-														<table align="left" border="0" cellpadding="0" cellspacing="0" width="140" style="border-collapse: collapse;">
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="0">&nbsp;</td></tr>
-															<tr>
-																<td width="100%" align="center" style="padding:12px 12px 12px 12px; text-align: center;border-radius:4px;" bgcolor="#f1f1f1">
-																	<a href="#" style="color: #000000; font-size: 16px; font-weight: normal; text-decoration: none; font-family: helvetica, Arial, sans-serif;">Purchase</a>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<!-- Space -->
-												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
 
-					</table>
-					<!-- Section End -->
+        /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
 
-					<!-- Footer Start -->
-					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-						<tr>
-							<td>
-								<table bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
-									<tr>
-										<td>
-											<!-- Space -->
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
-											</table>
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="border-collapse: collapse;">
-												<tr>
-													<td>
-														<!-- First Column -->
-														<table align="left" border="0" cellpadding="0" cellspacing="0" width="250" style="border-collapse: collapse;">
-															<tr>
-																<td>
-																	<a href="../html/index.html">
-																		<img src="http://localhost/pruebas/codeEmail/assets/images/logo_blue.png" alt="Logo" style="display: block;"/>
-																	</a>
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
-															<tr>
-																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">
-																	Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.
-																</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
-															<tr>
-																<td>
-																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
-																		<tr>
-																			<td>
-																				<a href="https://www.facebook.com">
-																					<img src="http://localhost/pruebas/codeEmail/assets/images/facebook-icon.png"  alt="Facebook" style="display: block;" />
-																				</a>
-																			</td>
-																		</tr>
-																	</table>
-																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
-																		<tr>
-																			<td>
-																				<a href="https://www.twitter.com">
-																					<img src="http://localhost/pruebas/codeEmail/assets/images/twitter-icon.png"  alt="Twitter" style="display: block;" />
-																				</a>
-																			</td>
-																		</tr>
-																	</table>
-																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
-																		<tr>
-																			<td>
-																				<a href="https://plus.google.com/">
-																					<img src="http://localhost/pruebas/codeEmail/assets/images/googleplus-icon.png"  alt="Google+" style="display: block;" />
-																				</a>
-																			</td>
-																		</tr>
-																	</table>
-																	<table align="left" border="0" cellpadding="0" cellspacing="0" width="45" style="border-collapse: collapse;">
-																		<tr>
-																			<td>
-																				<a href="https://www.linkedin.com/">
-																					<img src="http://localhost/pruebas/codeEmail/assets/images/linkedin-icon.png"  alt="Linked In" style="display: block;" />
-																				</a>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-														<!-- Gutter 20px -->
-														<table align="left" border="0" cellpadding="0" cellspacing="0" width="40" style="border-collapse: collapse;">
-															<tr>
-																<td>
-																	&nbsp;
-																</td>
-															</tr>
-														</table>
-														<!-- Second Column -->
-														<table align="left" border="0" cellpadding="0" cellspacing="0" width="250" style="border-collapse: collapse;">
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="57">&nbsp;</td></tr>
-															<tr>
-																<td width="22">
-																	<img src="http://localhost/pruebas/codeEmail/assets/images/marker-icon.png" alt="location" />
-																</td>
-																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">One infinity loop, 54100</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-															<tr>
-																<td width="22">
-																	<img src="http://localhost/pruebas/codeEmail/assets/images/phone-icon.png" alt="location" />
-																</td>
-																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">+12&nbsp;1234&nbsp;1234&nbsp;123</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-															<tr>
-																<td width="22">
-																	<img src="http://localhost/pruebas/codeEmail/assets/images/fax-icon.png" alt="location" />
-																</td>
-																<td style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">+12&nbsp;1234&nbsp;1234&nbsp;123</td>
-															</tr>
-															<!-- Space -->
-															<tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
-															<tr>
-																<td width="22">
-																	<img src="http://localhost/pruebas/codeEmail/assets/images/mail-icon.png" alt="location" />
-																</td>
-																<td>
-																	<a style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;" href="mailto:theproject@mail.com">theproject@mail.com</a>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!-- Space -->
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<tr><td style="font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+        /* What it does: Centers email on Android 4.4 */
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
 
-					</table>
-					<!-- Footer End -->
+        /* What it does: Stops Outlook from adding extra spacing to tables. */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
 
-					<!-- Subfooter Start -->
-					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-						<tr>
-							<td>
-								<table bgcolor="#f5f5f5" align="center" border="0" cellpadding="0" cellspacing="0" width="580" style="border-collapse: collapse;">
-									<tr>
-										<td>
-											<!-- Space -->
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-												<tr><td style="font-size: 0; line-height: 0;" bgcolor="#eaeaea" height="1">&nbsp;</td></tr>
-												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
-											</table>
-											<table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="border-collapse: collapse;">
-												<tr>
-													<td align="center" style="color: #999999; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif;">
-														Copyright © 2015 The Project by <a href="http://www.htmlcoder.me" style="color: #3697d9; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;">HtmlCoder</a>. All Rights Reserved / <a href="#" style="color: #3697d9; font-size: 14px; line-height: 18px; font-weight: normal; font-family: helvetica, Arial, sans-serif; text-decoration:none;"> Unsubscribe</a>
-													</td>
-												</tr>
-											</table>
-											<!-- Space -->
-											<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-												<tr><td style="font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+        /* What it does: Fixes webkit padding issue. */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
 
-					</table>
-					<!-- Subfooter End -->
-			
+        /* What it does: Uses a better rendering method when resizing images in IE. */
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
 
-				</td>
-			</tr>
-		</table>
-	</body>
+        /* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
+        a {
+            text-decoration: none;
+        }
+
+        /* What it does: A work-around for email clients meddling in triggered links. */
+        *[x-apple-data-detectors],  /* iOS */
+        .unstyle-auto-detected-links *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* What it does: Prevents Gmail from changing the text color in conversation threads. */
+        .im {
+            color: inherit !important;
+        }
+
+        /* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+        .a6S {
+            display: none !important;
+            opacity: 0.01 !important;
+        }
+        /* If the above doesn't work, add a .g-img class to any image in question. */
+        img.g-img + div {
+            display: none !important;
+        }
+
+        /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+        /* Create one of these media queries for each additional viewport size you'd like to fix */
+
+        /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            u ~ div .email-container {
+                min-width: 320px !important;
+            }
+        }
+        /* iPhone 6, 6S, 7, 8, and X */
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            u ~ div .email-container {
+                min-width: 375px !important;
+            }
+        }
+        /* iPhone 6+, 7+, and 8+ */
+        @media only screen and (min-device-width: 414px) {
+            u ~ div .email-container {
+                min-width: 414px !important;
+            }
+        }
+
+    </style>
+
+    <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+    <!-- CSS Reset : END -->
+
+    <!-- Progressive Enhancements : BEGIN -->
+    <style>
+
+	    /* What it does: Hover styles for buttons */
+	    .button-td,
+	    .button-a {
+	        transition: all 100ms ease-in;
+	    }
+	    .button-td-primary:hover,
+	    .button-a-primary:hover {
+	        background: #555555 !important;
+	        border-color: #555555 !important;
+	    }
+
+	    /* Media Queries */
+	    @media screen and (max-width: 480px) {
+
+	        /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+	        .fluid {
+	            width: 100% !important;
+	            max-width: 100% !important;
+	            height: auto !important;
+	            margin-left: auto !important;
+	            margin-right: auto !important;
+	        }
+
+	        /* What it does: Forces table cells into full-width rows. */
+	        .stack-column,
+	        .stack-column-center {
+	            display: block !important;
+	            width: 100% !important;
+	            max-width: 100% !important;
+	            direction: ltr !important;
+	        }
+	        /* And center justify these ones. */
+	        .stack-column-center {
+	            text-align: center !important;
+	        }
+
+	        /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+	        .center-on-narrow {
+	            text-align: center !important;
+	            display: block !important;
+	            margin-left: auto !important;
+	            margin-right: auto !important;
+	            float: none !important;
+	        }
+	        table.center-on-narrow {
+	            display: inline-block !important;
+	        }
+
+	        /* What it does: Adjust typography on small screens to improve readability */
+	        .email-container p {
+	            font-size: 17px !important;
+	        }
+	    }
+
+    </style>
+    <!-- Progressive Enhancements : END -->
+
+</head>
+<!--
+	The email background color (#222222) is defined in three places:
+	1. body tag: for most email clients
+	2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail, GSuite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
+	3. mso conditional: For Windows 10 Mail
+-->
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;">
+	<center style="width: 100%; background-color: #222222;">
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #222222;">
+    <tr>
+    <td>
+    <![endif]-->
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+            (Optional) This text will appear in the inbox preview, but not the email body. It can be used to supplement the email subject line or even summarize the email's contents. Extended text preheaders (~490 characters) seems like a better UX for anyone using a screenreader or voice-command apps like Siri to dictate the contents of an email. If this text is not included, email clients will automatically populate it using the text (including image alt text) at the start of the email's body.
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <!-- Create white space after the desired preview text so email clients don’t pull other distracting text into the inbox preview. Extend as necessary. -->
+        <!-- Preview Text Spacing Hack : BEGIN -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+	        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+        </div>
+        <!-- Preview Text Spacing Hack : END -->
+
+        <!--
+            Set the email width. Defined in two places:
+            1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 680px.
+            2. MSO tags for Desktop Windows Outlook enforce a 680px width.
+            Note: The Fluid and Responsive templates have a different width (600px). The hybrid grid is more "fragile", and I've found that 680px is a good width. Change with caution.
+        -->
+        <div style="max-width: 680px; margin: 0 auto;" class="email-container">
+            <!--[if mso]>
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="680">
+            <tr>
+            <td>
+            <![endif]-->
+
+	        <!-- Email Body : BEGIN -->
+	        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+		        <!-- Email Header : BEGIN -->
+	            <tr>
+	                <td style="padding: 20px 0; text-align: center">
+	                    <img src="https://via.placeholder.com/200x50" width="200" height="50" alt="alt_text" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+	                </td>
+	            </tr>
+		        <!-- Email Header : END -->
+
+	            <!-- Hero Image, Flush : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <img src="https://via.placeholder.com/1360x600" width="680" height="" alt="alt_text" border="0" style="width: 100%; max-width: 680px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="fluid g-img">
+                    </td>
+                </tr>
+                <!-- Hero Image, Flush : END -->
+
+                <!-- 1 Column Text + Button : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                    <h1 style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">Praesent laoreet malesuada&nbsp;cursus.</h1>
+                                    <p style="margin: 0 0 10px;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
+                                    <ul style="padding: 0; margin: 0; list-style-type: disc;">
+										<li style="margin:0 0 10px 30px;" class="list-item-first">A list item.</li>
+										<li style="margin:0 0 10px 30px;">Another list item here.</li>
+										<li style="margin: 0 0 0 30px;" class="list-item-last">Everyone gets a list item, list items for everyone!</li>
+									</ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0 20px 20px;">
+                                    <!-- Button : BEGIN -->
+                                    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                                        <tr>
+                                            <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+											     <a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Centered Primary Button</a>
+											</td>
+                                        </tr>
+                                    </table>
+                                    <!-- Button : END -->
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <!-- 1 Column Text + Button : END -->
+
+                <!-- Background Image with Text : BEGIN -->
+                <tr>
+                    <!-- Bulletproof Background Images c/o https://backgrounds.cm -->
+                    <td style="text-align: center; background-image: url('https://via.placeholder.com/680x180/222222/666666'); background-color: #222222; background-position: center center !important; background-size: cover !important;">
+                        <!--[if gte mso 9]>
+                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border: 0; display: inline-block; width: 680px; height: 180px;" src="https://via.placeholder.com/680x180/222222/666666" />
+                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border: 0; display: inline-block; position: absolute; width: 680px; height: 180px;">
+                        <v:fill opacity="0%" color="#222222" />
+                        <![endif]-->
+                        <div>
+                            <!--[if mso]>
+                            <table align="center" role="presentation" border="0" cellspacing="0" cellpadding="0" width="500">
+                            <tr>
+                            <td width="500">
+                            <![endif]-->
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500px; margin: auto;">
+                                <tr>
+                                    <td style="text-align: center; padding: 40px 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #ffffff;">
+                                        <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </div>
+                        <!--[if gte mso 9]>
+                        </v:fill>
+                        </v:rect>
+                        </v:image>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Background Image with Text : END -->
+
+                <!-- 2 Even Columns : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <!--[if mso]>
+                        <table align="center" role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
+                        <tr>
+                        <td valign="top" width="660">
+                        <![endif]-->
+                        <table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:660px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
+                                    <tr>
+                                    <td valign="top" width="330">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px; text-align: left;">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://via.placeholder.com/310" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow"
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                                <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="330">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://via.placeholder.com/310" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                                <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- 2 Even Columns : END -->
+
+                <!-- 3 Even Columns : BEGIN -->
+                <tr>
+                    <td style="padding: 10px 0; background-color: #ffffff;">
+                        <!--[if mso]>
+                        <table align="center" role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
+                        <tr>
+                        <td valign="top" width="660">
+                        <![endif]-->
+                        <table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:660px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
+                                    <tr>
+                                    <td valign="top" width="220">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:33.33%; min-width:220px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                                <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="220">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:33.33%; min-width:220px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                                <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="220">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:33.33%; min-width:220px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
+                                                                <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- 3 Even Columns : END -->
+
+                <!-- Thumbnail Left, Text Right : BEGIN -->
+                <tr>
+                    <!-- dir=ltr is where the magic happens. This can be changed to dir=rtl to swap the alignment on wide while maintaining stack order on narrow. -->
+                    <td dir="ltr" height="100%" valign="top" width="100%" style="padding: 10px 0; background-color: #ffffff;">
+                        <!--[if mso]>
+                        <table align="center" role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                        <tr>
+                        <td valign="top" width="660" style="width: 660px;">
+                        <![endif]-->
+                        <table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:660px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                                    <tr>
+                                    <td valign="top" width="220" style="width: 220px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
+                                                    <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="440" style="width: 440px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:66.66%; min-width:320px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
+                                                    <h2 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 22px; color: #333333; font-weight: bold;">Class aptent taciti sociosqu</h2>
+                                                    <p style="margin: 0 0 10px 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                    <!-- Button : BEGIN -->
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
+                                                        <tr>
+				                                            <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+																<a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Primary Button</a>
+															</td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- Button : END -->
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Thumbnail Left, Text Right : END -->
+
+                <!-- Thumbnail Right, Text Left : BEGIN -->
+                <tr>
+                    <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
+                    <td dir="rtl" height="100%" valign="top" width="100%" style="padding: 10px 0; background-color: #ffffff;">
+                        <!--[if mso]>
+                        <table align="center" role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                        <tr>
+                        <td valign="top" width="660">
+                        <![endif]-->
+                        <table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:660px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                                    <tr>
+                                    <td valign="top" width="220" style="width: 220px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
+                                                    <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="440" style="width: 440px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:66.66%; min-width:320px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
+                                                    <h2 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 22px; color: #333333; font-weight: bold;">Class aptent taciti sociosqu</h2>
+                                                    <p style="margin: 0 0 10px 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                    <!-- Button : BEGIN -->
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
+                                                        <tr>
+				                                            <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+																<a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Primary Button</a>
+															</td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- Button : END -->
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Thumbnail Right, Text Left : END -->
+
+                <!-- Clear Spacer : BEGIN -->
+                <tr>
+                    <td aria-hidden="true" height="40" style="font-size: 0px; line-height: 0px;">
+                        &nbsp;
+                    </td>
+                </tr>
+                <!-- Clear Spacer : END -->
+
+                <!-- 1 Column Text : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                    <p style="margin: 0 0 10px 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 1 Column Text : END -->
+
+            </table>
+            <!-- Email Body : END -->
+
+            <!-- Email Footer : BEGIN -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 680px;">
+                <tr>
+                    <td style="padding: 20px; font-family: sans-serif; font-size: 12px; line-height: 15px; text-align: center; color: #888888;">
+                        <webversion style="color: #cccccc; text-decoration: underline; font-weight: bold;">View as a Web Page</webversion>
+                        <br><br>
+		                Company Name<br><span class="unstyle-auto-detected-links">123 Fake Street, SpringField, OR, 97477 US<br>(123) 456-7890</span>
+                        <br><br>
+                        <unsubscribe style="color: #888888; text-decoration: underline;">unsubscribe</unsubscribe>
+                    </td>
+                </tr>
+            </table>
+            <!-- Email Footer : END -->
+
+            <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+
+        <!-- Full Bleed Background Section : BEGIN -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #709f2b;">
+            <tr>
+                <td>
+                    <div align="center" style="max-width: 680px; margin: auto;" class="email-container">
+                        <!--[if mso]>
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+                        <tr>
+                        <td>
+                        <![endif]-->
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; text-align: left; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #ffffff;">
+                                    <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- Full Bleed Background Section : END -->
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+    </center>
+</body>
 </html>
