@@ -2,7 +2,7 @@
 
 $message = '';
 $dir_upload = 'upload/';
-$max_size = 2000000;
+$max_size = 8000000;
 
 $file = $_FILES['example'];
 

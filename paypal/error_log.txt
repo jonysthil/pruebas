@@ -79,3 +79,10 @@ Stack trace:
 #0 /var/www/vhosts/cloudnetwork.mx/httpdocs/paypalJon/libs/PayPalApi/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(74): PayPal\Core\PayPalHttpConnection->execute('')
 #1 /var/www/vhosts/cloudnetwork.mx/httpdocs/paypalJon/libs/PayPalApi/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(103): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'GET', '', NULL)
 #2 /var/www/vhosts/cloudnetwork.mx/httpdocs/paypalJon/libs/PayPalApi/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(448): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'GET', '', NULL, Object(PayPal\Rest\ in /var/www/vhosts/cloudnetwork.mx/httpdocs/paypalJon/libs/PayPalApi/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 177
+[22-Feb-2019 18:40:40 UTC] PHP Fatal error:  Cannot use PayPal\Api\object as object because 'object' is a special class name in C:\wamp64\www\pruebas\paypal\libs\PayPalApi\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php on line 8
+[22-Feb-2019 18:40:40 UTC] PHP Stack trace:
+[22-Feb-2019 18:40:40 UTC] PHP   1. {main}() C:\wamp64\www\pruebas\paypal\paypalCheckout.php:0
+[22-Feb-2019 18:40:40 UTC] PHP   2. PayPal->pagar() C:\wamp64\www\pruebas\paypal\paypalCheckout.php:14
+[22-Feb-2019 18:40:40 UTC] PHP   3. spl_autoload_call() C:\wamp64\www\pruebas\paypal\clases\PayPalService.clase.php:85
+[22-Feb-2019 18:40:40 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() C:\wamp64\www\pruebas\paypal\clases\PayPalService.clase.php:85
+[22-Feb-2019 18:40:40 UTC] PHP   5. Composer\Autoload\includeFile() C:\wamp64\www\pruebas\paypal\libs\PayPalApi\vendor\composer\ClassLoader.php:322
