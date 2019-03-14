@@ -77,7 +77,7 @@ class ContactoController extends Controller {
         return Redirect::to('contacto');
     }
 
-    public function destroy($cntId) {
+    public function borrar($cntId) {
         $contacto = ContactoModel::findOrFail($cntId);
         $contacto->delete();
 
