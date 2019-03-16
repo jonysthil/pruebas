@@ -4,10 +4,10 @@ date_default_timezone_set("America/Mexico_City");
 /**
  * Define database parameters here
  */
-define("DB_USER", 'root');
-define("DB_PASSWORD", 'pocoyojony12');
-define("DB_NAME", 'proelium_cide_2019');
-define("DB_HOST", 'localhost');
+define("DB_USER", 'admin');
+define("DB_PASSWORD", '$AES-128-CBC$o8lbFUnf0k33q4L6cwklYg==$3zbyJblM+4h1ZLP4gwExdIKLTUWOMuwrKd2QoQQaEOM=');
+define("DB_NAME", 'respaldo');
+define("DB_HOST", '127.0.0.1');
 define("BACKUP_DIR", 'DB_Backups');
 define("BACKUP_DIR0", BACKUP_DIR.'/'); // Comment this line to use same script's directory ('.')
 define("TABLES", '*'); // Full backup
