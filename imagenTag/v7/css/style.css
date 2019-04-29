@@ -16,18 +16,22 @@
 
 #tagit .box {
     border: solid 3px #94ab1d;
-    width: 100px;
-    height: 100px;
-    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #94ab1d;
+    float: initial;
 }
 
 
 .tagview {
-    border: solid 3px #ffffff;
-    width: 100px;
-    height: 100px;
+    border: solid 3px #94ab1d;
+    width: 20px;
+    height: 20px;
     position: absolute;
     opacity: 0.5;
+    border-radius: 50px;
+    background-color: #94ab1d;
 }
 
 .tagview:hover {

@@ -32,9 +32,68 @@
             $result = mysqli_query($mysqli, $sql);
 
             while($rs = mysqli_fetch_array($result)) {
+
+                $x = $rs['tagPositionX'];
+                $y = $rs['tagPositionY'];
+
+                $x9 = $x*.80;
+                $y9 = $y*.80;
+
+                $x7 = $x*.60;
+                $y7 = $y*.60;
+
+                $x76 = $x*.45;
+                $y76 = $y*.45;
+
+                $x4 = $x*.20;
+                $y4 = $y*.20;
             ?>
 
-            <div class="tagview" style="left:<?php echo $rs['tagPositionX'];?>; top:<?php echo $rs['tagPositionY'];?>;" id="view_<?php echo $rs['id'];?>" data-toggle="tooltip" title="Proveedor <?php echo $rs['idProveedor']; ?>">
+                
+            <style>
+            
+                /* Large desktops and laptops */
+                @media (min-width: 1200px) {
+                    #view_<?php echo $rs['id'];?> {
+                        left:<?php echo $x; ?>;
+                        top:<?php echo $y; ?>;
+                    }
+                }
+
+                /* Landscape tablets and medium desktops */
+                @media (min-width: 992px) and (max-width: 1199.98px) {
+                    #view_<?php echo $rs['id'];?> {
+                        left:<?php echo $x9; ?>;
+                        top:<?php echo $y9; ?>;
+                    }
+                }
+
+                /* Portrait tablets and small desktops */
+                @media (min-width: 768px) and (max-width: 991.98px) {
+                    #view_<?php echo $rs['id'];?> {
+                        left:<?php echo $x7; ?>;
+                        top:<?php echo $y7; ?>;
+                    }
+                }
+
+                /* Landscape phones and portrait tablets */
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                    #view_<?php echo $rs['id'];?> {
+                        left:<?php echo $x76; ?>;
+                        top:<?php echo $y76; ?>;
+                    }
+                }
+
+                /* Portrait phones and smaller */
+                @media (max-width: 575.98px) {
+                    #view_<?php echo $rs['id'];?> {
+                        left:<?php echo $x4; ?>;
+                        top:<?php echo $y4; ?>;
+                    }
+                }
+            </style>
+
+            <div onclick="alert('Visitando al proveedor: <?php echo $rs['idProveedor']; ?>');" class="tagview" id="view_<?php echo $rs['id'];?>" data-toggle="tooltip" title="Proveedor <?php echo $rs['idProveedor']; ?>">
             </div>
             
             <?php } ?>
