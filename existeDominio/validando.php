@@ -28,7 +28,9 @@
 
     $r1 = checkdnsrr($d1);
 
-    if ($r1 == true) {
+    if ($buscaweb == ' ' || $buscaweb =='') {
+        echo "<p class='text-danger'>Ingresa un nombre de dominio.</p>";
+    } elseif ($r1 == true) {
         echo "<p class='text-danger'>El dominio <b>" . $d1 . "</b> esta en uso.</p>";
     } else {
         echo "<p class='text-success'>El dominio <b>" . $d1 . "</b> esta disponible.</p>";

@@ -39,9 +39,12 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
+                <p class="text-center">
+                    <img src="logotipo.png" width="50%" class="img-fluid img-responsive" alt="Custom Coding">
+                </p>
                 <div class="card">
                     <div class="card-header">
-                        Comprueba disponibilidad
+                        Comprueba la disponibilidad de su nombre de dominio.
                     </div>
                     <div class="card-body">
                         <form id="validaDominio">
@@ -59,8 +62,6 @@
                                         <option value="com">.com</option>
                                         <option value="mx">.mx</option>
                                         <option value="com.mx">.com.mx</option>
-                                        <option value="net">.net</option>
-                                        <option value="org.mx">.org.mx</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
@@ -71,6 +72,7 @@
                         <div id="resp"></div>
                     </div>
                 </div>
+                <p class="text-center">Por: Jonathan Jimenez.</p>
             </div>
         </div>
     </div>
