@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Complex Marker Icons</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgr0SndRlIdjjZDtkurSQO3I2pm2iAUIA&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      (function(exports) {
+        "use strict";
+
+        // The following example creates complex markers to indicate beaches near
+        // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
+        // to the base of the flagpole.
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 8,
+            center: {
+              lat: 19.4326068,
+              lng: -99.1353936
+            }
+          });
+          setMarkers(map);
+        } // Data for the markers consisting of a name, a LatLng and a zIndex for the
+        // order in which these markers should display on top of each other.
+
+        var ubicaciones = [
+          [19.5938397, -99.0192674],
+          [19.7294897, -99.1858149],
+          [20.7794464, -101.4979118],
+          [19.4968551, -100.0564017],
+          [18.9320308, -99.3106063]
+        ];
+
+        function setMarkers(map) {
+          
+
+
+          for (var i = 0; i < ubicaciones.length; i++) {
+            var beach = ubicaciones[i];
+            var marker = new google.maps.Marker({
+              position: {
+                lat: beach[0],
+                lng: beach[1]
+              },
+              map: map,
+            });
+          }
+        }
+
+        exports.ubicaciones = ubicaciones;
+        exports.initMap = initMap;
+        exports.setMarkers = setMarkers;
+      })((this.window = this.window || {}));
+    </script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
