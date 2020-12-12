@@ -1,7 +1,0 @@
-{
-  "name": "sonido",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
